@@ -1,0 +1,261 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style>
+body {max-width: 21cm; margin: auto; font-family: "Century Gothic"}
+#main-table {border-collapse: collapse;}
+td {vertical-align: top;}
+#main-table>tbody>tr>td:not(td+td)>* {max-width: 150px}
+#main-table>tbody>tr>td:not(td+td) { padding-right: 10px; text-align: right; border-right: 2px solid black}
+.padding-circle {font-size: 25px; transform: translate(-9px, 0px); padding: 1px}
+#personal-info .padding-circle {visibility: hidden}
+.experience .padding-circle {font-size: 18px; transform: translate(-7px, 0px);}
+
+h2{font-size: 14pt}
+h3{font-size: 12pt; margin-bottom: 2pt; display: inline; }
+h4, th{margin: 0px; font-size: 10pt; margin-bottom: 2pt; }
+h4 {display: inline;}
+p, li, .skills-table td,  {font-size: 10pt; text-align: justify; margin: 1px}
+
+#languages * td {font-size: 10pt; margin: 1px}
+
+#languages table {width: 100%; text-align: center}
+
+
+
+
+
+ul {padding-left: 20px}
+
+
+ul:not(.experience *) {margin-bottom: 5pt; margin-top: 5pt; }
+
+#skills table {table-layout: fixed;}
+
+#skills thead+tbody>tr>td {width: 33%}
+
+.skills-table {width: 80%; margin: 0% 10% 0% 10%; border-collapse: collapse;}
+
+.skills-table td+td {text-align: right; color: #028c98}
+
+#personal-info p {padding: 10pt 0pt 10pt 0pt;}
+
+h1, h2, .padding-circle, a , h3 {color: #028c98}
+
+
+
+
+progress {accent-color: #028c98;}
+
+
+
+    </style>
+    <title>Curriculum vitae</title>
+  </head>
+  <body>
+    <table id="main-table">
+      <tbody>
+        <tr id="personal-info">
+          <td><img src="photo.jpg" alt="Photo of Henri Questiaux"></td>
+          <td class="padding-circle">&#9679</td>
+          <td>
+            <center><h1>Henri QUESTIAUX</h1></center>
+            <ul>
+              <li>18 ans, célibataire, sans enfants</li>
+              <li>Rue de la gare, 58, 6740, Sainte-Marie-sur-Semois - Belgique</li>
+              <li><a href="tel:00320468523802">+32 (0) 468 52 38 02</a></li>
+              <li><a href="mailto:henri.questiaux@gmail.com">henri.questiaux@gmail.com</a></li>
+            </ul>
+              <p>
+                Jeune et dynamique, je possède déjà plusieurs expériences professionnelles réussies, tant dans le domaine de la programmation (ma passion depuis toujours) que dans d’autres tâches diverses telles que l’entretien ou la maintenance. D’un naturel sociable, je fais preuve d’une grande capacité d’adaptation à toute situation et à toute problématique, aussi complexe soit-elle.
+              </p>
+          </td>
+        </tr>
+        <tr id="skills">
+          <td><h2>Compétences informatiques</h2></td>
+          <td class="padding-circle">&#9679</td>
+          <td>
+            <table>
+              <thead>
+                <th>Langages</th>
+                <th>Logiciels</th>
+                <th>Systhèmes d'exploitation</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <table class="skills-table" id="prog-lang-table">
+                      <tbody>
+                        <tr>
+                          <td>Python</td>
+                          <td>&#9679&#9679&#9679&#9679&#9679</td>
+                        </tr>
+						<tr>
+                          <td>JavaScript</td>
+                          <td>&#9679&#9679&#9679&#9679&#9675</td>
+                        </tr>
+                        <tr>
+                          <td>C#</td>
+                          <td>&#9679&#9679&#9679&#9675&#9675</td>
+                        </tr>
+                        <tr>
+                          <td>PHP</td>
+                          <td>&#9679&#9679&#9675&#9675&#9675</td>
+                        </tr>
+                        <tr>
+                          <td>C++</td>
+                          <td>&#9679&#9679&#9675&#9675&#9675</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                  <td>
+                    <table class="skills-table" id="soft-table">
+                      <tbody>
+                        <tr>
+                          <td>VirtualBox</td>
+                          <td>&#9679&#9679&#9679&#9679&#9675</td>
+                        </tr>
+                        <tr>
+                          <td>Word</td>
+                          <td>&#9679&#9679&#9679&#9679&#9675</td>
+                        </tr>
+                        <tr>
+                          <td>Excel</td>
+                          <td>&#9679&#9679&#9679&#9679&#9675</td>
+                        </tr>
+                        <tr>
+                          <td>CCleaner</td>
+                          <td>&#9679&#9679&#9679&#9679&#9675</td>
+                        </tr>
+                        <tr>
+                          <td>PyCharm</td>
+                          <td>&#9679&#9679&#9679&#9675&#9675</td>
+                        </tr>
+                        <tr>
+                          <td>VisualStudio</td>
+                          <td>&#9679&#9679&#9679&#9675&#9675</td>
+                        </tr>
+                        <tr>
+                          <td>Atom</td>
+                          <td>&#9679&#9679&#9679&#9675&#9675</td>
+                        </tr>
+                        <tr>
+                          <td>Git</td>
+                          <td>&#9679&#9679&#9679&#9675&#9675</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                  <td>
+                    <table class="skills-table" id="os-table">
+                      <tbody>
+                        <tr>
+                          <td>Windows</td>
+                          <td>&#9679&#9679&#9679&#9679&#9679</td>
+                        </tr>
+                        <tr>
+                          <td>IOS</td>
+                          <td>&#9679&#9679&#9679&#9679&#9679</td>
+                        </tr>
+                        <tr>
+                          <td>MacOS</td>
+                          <td>&#9679&#9679&#9679&#9679&#9675</td>
+                        </tr>
+                        <tr>
+                          <td>Linux</td>
+                          <td>&#9679&#9679&#9679&#9679&#9675</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr id="experiences">
+          <td><h2>Parcours professionnel</h2></td>
+          <td class="padding-circle">&#9679</td>
+        </tr>
+        <tr class="experience">
+          <td><strong>Août 2022</strong></td>
+          <td class="padding-circle">&#9679</td>
+          <td>
+            <h3>Recherche OSINT</h3><h4> - Wealins - Luxembourg - Etudiant</h4>
+            <ul>
+              <li>Recherche des bénéficiaires effectifs des sociétés de courtage, managers de fonds et banques partenaires de Wealins (groupe Foyer)</li>
+              <li>Complétion des informations de la base de données interne via diverses sources privées ou publiques</li>
+              <li>Recherche OSINT sur divers registres UBO internationaux (France, Luxembourg, Suède, Israël, …)</li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="experience">
+          <td><strong>Hiver 2021</strong></td>
+          <td class="padding-circle">&#9679</td>
+          <td>
+            <h3>Programmeur</h3><h4> - FlyTek - Liège - CDD</h4>
+            <ul>
+              <li>Programmation d'une app desktop en Python sous accord de confidentialité</li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="experience">
+          <td><strong>Etés 2020-2022</strong></td>
+          <td class="padding-circle">&#9679</td>
+          <td>
+            <h3>Ouvrier polyvalent</h3><h4> - Uliège - Arlon - Etudiant</h4>
+            <ul>
+              <li>Travail seul et en équipe afin de veiller à l'entretien et la propreté des abords extérieurs</li>
+            </ul>
+          </td>
+        </tr>
+        <tr id="formation">
+          <td><h2>Formations</h2></td>
+          <td class="padding-circle">&#9679</td>
+          <td>
+            <p>
+              Certificat d'enseignement secondaire supérieur, Technique de transition en sciences informatiques, Athénée Royal De Neufchâteau
+            </p>
+          </td>
+        </tr>
+        <tr id="languages">
+          <td><h2>Langues</h2></td>
+          <td class="padding-circle">&#9679</td>
+          <td>
+            <table>
+              <thead>
+                <th>Français</th>
+                <th>Anglais</th>
+                <th>Allemand</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><progress value="6" max="6"></progress></td>
+                  <td><progress value="5" max="6"></progress></td>
+                  <td><progress value="2" max="6"></progress></td>
+                </tr>
+                <tr>
+                  <td>Lange maternelle</td>
+                  <td>Expérimenté (C1)</td>
+                  <td>Intermédiaire (A2)</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+          <tr id="references">
+            <td><h2>Références</h2></td>
+            <td class="padding-circle">&#9679</td>
+            <td>
+              <ul>
+                <li>Gestionnaire administrative et technique à ULiège ARI, Nathalie Fossion au <a href="tel:0032499802903">+32 (0) 499 80 29 03</a></li>
+                <li>Officier sales support Wealins, Didier Josse à <a href="mailto:jod@wealins.lu">jod@wealins.lu</a></li>
+				<li><a target="_blank" href="evaluation_wealins.pdf">Evaluation Wealins</a> rédigée par <a href="mailto:vlb@wealins.lu">vlb@wealins.lu</a></li>
+              </ul>
+            </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+
+</html>
